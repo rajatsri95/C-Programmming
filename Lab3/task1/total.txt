@@ -1,0 +1,5 @@
+itoa 0                              : 0   of 5  
+itoa 19467                          : 0   of 5  
+itoa -269                           : 5   of 5  
+itoa -179604                        : 5   of 5  
+itoa -2147483648                    : 10  of 10 
