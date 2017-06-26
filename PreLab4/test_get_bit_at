@@ -1,0 +1,29 @@
+#!/bin/bash
+./get_bit_at 25 0 > out
+num=$(head -n1 out)
+if [ "$num" == "1" ] ; then
+	echo "Test1 Passed";
+else
+	echo "Test1 failed";
+	echo "Expected: 1";
+	echo "Your Result: $num";
+fi
+./get_bit_at 8 3 > out
+num=$(head -n1 out)
+if [ "$num" == "1" ] ; then
+	echo "Test2 Passed";
+else
+	echo "Test2 failed";
+	echo "Expected: 1";
+	echo "Your Result: $num";
+fi
+./get_bit_at 10 2 > out
+num=$(head -n1 out)
+if [ "$num" == "0" ] ; then
+	echo "Test3 Passed";
+else
+	echo "Test3 Failed";
+	echo "Expected: 0";
+	echo "Your Result: $num";
+fi 
+rm out

@@ -1,0 +1,9 @@
+word_count test1                    : 0   of 1  
+word_count test2                    : 0   of 1  
+word_count test3                    : 0   of 1  
+word_count test4                    : 0   of 1  
+word_count test5                    : 0   of 1  
+word_count test6                    : 0   of 1  
+word_count testargs                 : 1   of 1  
+word_count testhelp                 : 0   of 1  
+word_count testlexsort              : 0   of 1  
